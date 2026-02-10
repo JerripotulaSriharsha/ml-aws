@@ -4,4 +4,9 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11,<3.13"
-dependencies = []
+dependencies = [
+    "kaggle>=1.8.4",
+    "kagglehub[hf-datasets]>=0.4.3",
+    "kagglesdk>=0.1.15",
+    "pandas>=3.0.0",
+]
