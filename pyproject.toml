@@ -5,9 +5,15 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11,<3.13"
 dependencies = [
+    "category-encoders>=2.9.0",
+    "mlflow>=1.27.0",
     "nbformat>=4.2.0",
     "openpyxl>=3.1.5",
+    "optuna>=4.7.0",
     "pandas>=3.0.0",
     "plotly>=6.5.2",
+    "protobuf<5",
     "seaborn>=0.13.2",
+    "setuptools>=70,<71",
+    "xgboost>=3.2.0",
 ]
